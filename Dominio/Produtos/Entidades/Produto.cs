@@ -23,10 +23,18 @@ namespace Dominio.Produtos.Entidades
 
         public virtual void SetNome(string? nome)
         {
+            if (String.IsNullOrWhiteSpace(nome))
+            {
+                throw new Exception("Nome não pode ser vazio ou nulo");
+            }
             this.Nome = nome;
         }
         public virtual void SetValor(decimal valor)
         {
+            if (valor <= 0)
+            {
+                throw new Exception("Valor não pode ser menor ou igual a zero");
+            }
             this.Valor = valor;
         }
         public virtual void SetValidade()

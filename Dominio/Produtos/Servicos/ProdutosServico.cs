@@ -13,19 +13,23 @@ namespace Dominio.Produtos.Servicos
         }
         public Produto InserirProduto(Produto produto)
         {
-            var produtoResponse  = produtosRepositorio.Inserir(produto);
+            var produtoResponse = produtosRepositorio.Inserir(produto);
             return produtoResponse;
         }
 
         public Produto Instanciar(string nome, decimal valor)
         {
-             var produtoResponse = new Produto(nome, valor);
+            var produtoResponse = new Produto(nome, valor);
             return produtoResponse;
         }
 
         public Produto Validar(int id)
         {
             var produtoResponse = this.produtosRepositorio.Recuperar(id);
+            if (produtoResponse is null)
+            {
+                throw new Exception("Produto não encontrado");
+            }
             return produtoResponse;
         }
     }
