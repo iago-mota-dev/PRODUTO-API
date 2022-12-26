@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Dominio.Produtos.Entidades;
 using Dominio.Produtos.Repositorios;
 using Dominio.Produtos.Servicos;
+using Dominio.Produtos.Servicos.Interfaces;
 using FizzWare.NBuilder;
 using FluentAssertions;
 using NSubstitute;
@@ -14,7 +11,7 @@ namespace Dominio.Testes.Produtos.Servicos
 {
     public class ProdutosServicoTestes
     {
-        private readonly ProdutosServico sut;
+        private readonly IProdutosServico sut;
         private readonly Produto produtoValido; 
         private readonly IProdutosRepositorio produtosRepositorio; 
 

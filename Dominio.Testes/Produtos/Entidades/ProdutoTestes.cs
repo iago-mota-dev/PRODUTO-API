@@ -30,7 +30,7 @@ namespace Dominio.Testes.Produtos.Entidades
             }
         }
 
-        public class SetNome : ProdutoTestes
+        public class SetNomeMetodo : ProdutoTestes
         {
             [Theory]
             [InlineData(null)]
@@ -52,7 +52,7 @@ namespace Dominio.Testes.Produtos.Entidades
 
         }
 
-        public class SetValor : ProdutoTestes
+        public class SetValorMetodo : ProdutoTestes
         {
             [Theory]
             [InlineData(0)]
@@ -70,7 +70,7 @@ namespace Dominio.Testes.Produtos.Entidades
                 sut.Valor.Should().Be(20m);
             }
         }
-        public class SetValidade : ProdutoTestes
+        public class SetValidadeMetodo : ProdutoTestes
         {
             [Fact]
             public void Quando_MetodoForChamado_Espero_PropriedadesPreenchidas()
