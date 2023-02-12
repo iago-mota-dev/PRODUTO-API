@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Dominio.Fornecedores.Entidades;
 
 namespace Dominio.Produtos.Entidades
 {
@@ -11,6 +12,7 @@ namespace Dominio.Produtos.Entidades
         public virtual string? Nome { get; protected set; }
         public virtual decimal Valor { get; protected set; }
         public virtual DateTime Validade { get; protected set; }
+        public virtual IList<Fornecedor> Fornecedores { get; protected set; }
 
         protected Produto() { }
 
