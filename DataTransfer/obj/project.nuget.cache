@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0Hg2G7I+YiZh4LotMUa4/WMk69HSlmLcN8H1qcdkc769wiTeyXixKvBYht7GzLGI6UJNMTfWoG4iPsfIGhkfQ==",
+  "dgSpecHash": "n7YzyScBfTcdlHCeFm2qvWR487gtdIZfXrP1Xf86T/SiU3peQOHYeYovz4h9jYXMk1OPoQY7B3l7M4XwRIRqQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
+  "projectFilePath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

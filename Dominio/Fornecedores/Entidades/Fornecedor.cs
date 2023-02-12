@@ -13,7 +13,10 @@ namespace Dominio.Fornecedores.Entidades
         public virtual bool Status { get; protected set; }
         public virtual DateTime ValidadeContratual { get; protected set; }
         public virtual IList<Produto> Produtos { get; protected set; }
+        protected Fornecedor()
+        {
 
+        }
         public Fornecedor(string nome, bool status, int mesesDoContrato)
         {
 

@@ -17,7 +17,7 @@ namespace Infra.Produtos.Mapeamentos
             Map(x => x.Nome).Column("productName");
             Map(x => x.Valor).Column("price");
             Map(x => x.Validade).Column("expiry");
-            HasManyToMany(x => x.Fornecedores).Table("productsupplier").Inverse().Cascade.All();
+            HasManyToMany(x => x.Fornecedores).Table("productsupplier");
         }
     }
 }

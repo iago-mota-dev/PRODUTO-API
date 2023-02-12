@@ -10,3 +10,15 @@ C:\Users\iago\Documents\project\Product-API-DDD\DataTransfer\obj\Debug\net6.0\Da
 C:\Users\iago\Documents\project\Product-API-DDD\DataTransfer\obj\Debug\net6.0\refint\DataTransfer.dll
 C:\Users\iago\Documents\project\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.pdb
 C:\Users\iago\Documents\project\Product-API-DDD\DataTransfer\obj\Debug\net6.0\ref\DataTransfer.dll
+C:\Users\iago\git\Product-API-DDD\DataTransfer\bin\Debug\net6.0\DataTransfer.deps.json
+C:\Users\iago\git\Product-API-DDD\DataTransfer\bin\Debug\net6.0\DataTransfer.dll
+C:\Users\iago\git\Product-API-DDD\DataTransfer\bin\Debug\net6.0\DataTransfer.pdb
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.csproj.AssemblyReference.cache
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.AssemblyInfoInputs.cache
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.AssemblyInfo.cs
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.csproj.CoreCompileInputs.cache
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.dll
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\refint\DataTransfer.dll
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\DataTransfer.pdb
+C:\Users\iago\git\Product-API-DDD\DataTransfer\obj\Debug\net6.0\ref\DataTransfer.dll

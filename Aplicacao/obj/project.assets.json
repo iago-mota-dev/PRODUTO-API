@@ -5981,11 +5981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
+      "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
       "projectName": "Aplicacao",
-      "projectPath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
+      "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
       "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Aplicacao\\obj\\",
+      "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6007,14 +6007,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
+            "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
+              "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
             },
-            "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Dominio\\Dominio.csproj"
+            "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\iago\\Documents\\project\\Product-API-DDD\\Infra\\Infra.csproj"
+            "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj"
             }
           }
         }
