@@ -11,5 +11,8 @@ namespace Aplicacao.Produtos.Servicos.Interfaces
     {
         ProdutoResponse Recuperar(int id);
         ProdutoInserirResponse InserirProduto(ProdutoInserirRequest produtoRequest);
+        void Editar(ProdutoInserirRequest produtoRequest, int id);
+        void Excluir(int id);
+
     }
 }

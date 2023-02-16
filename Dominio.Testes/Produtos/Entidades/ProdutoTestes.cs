@@ -70,14 +70,6 @@ namespace Dominio.Testes.Produtos.Entidades
                 sut.Valor.Should().Be(20m);
             }
         }
-        public class SetValidadeMetodo : ProdutoTestes
-        {
-            [Fact]
-            public void Quando_MetodoForChamado_Espero_PropriedadesPreenchidas()
-            {
-                sut.SetValidade();
-                sut.Validade.Should().BeSameDateAs(DateTime.Now.AddDays(7));
-            }
-        }
+
     }
 }

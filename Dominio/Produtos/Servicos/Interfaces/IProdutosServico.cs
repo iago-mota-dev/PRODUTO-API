@@ -11,5 +11,7 @@ namespace Dominio.Produtos.Servicos.Interfaces
         Produto Validar(int id);
         Produto InserirProduto(Produto produto);
         Produto Instanciar(string nome, decimal valor);
+        void Excluir(int id);
+        void Atualizar(string nome, decimal valor, int id);
     }
 }

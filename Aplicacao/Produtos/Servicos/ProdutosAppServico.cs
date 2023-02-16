@@ -19,6 +19,37 @@ namespace Aplicacao.Produtos.Servicos
             this.session = session;
             this.produtoServico = produtoServico;
         }
+
+        public void Editar(ProdutoInserirRequest produtoRequest, int id)
+        {
+            var transacao = session.BeginTransaction();
+            try
+            {
+                produtoServico.Atualizar(produtoRequest.Nome, produtoRequest.Valor, id);
+                transacao.Commit();
+            }
+            catch
+            {
+                transacao.Rollback();
+                throw;
+            }
+        }
+
+        public void Excluir(int id)
+        {
+            var transacao = session.BeginTransaction();
+            try
+            {
+                produtoServico.Excluir(id);
+                transacao.Commit();
+            }
+            catch
+            {
+                transacao.Rollback();
+                throw;
+            }
+        }
+
         public ProdutoInserirResponse InserirProduto(ProdutoInserirRequest produtoInserirRequest)
         {
             var transacao = session.BeginTransaction();

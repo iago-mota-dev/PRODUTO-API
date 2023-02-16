@@ -11,6 +11,21 @@ namespace Dominio.Produtos.Servicos
         {
             this.produtosRepositorio = produtosRepositorio;
         }
+
+        public void Atualizar(string nome, decimal valor, int id)
+        {
+            Produto produtoAnterior = Validar(id);
+            produtoAnterior.SetNome(nome);
+            produtoAnterior.SetValor(valor);
+            produtosRepositorio.Atualizar(produtoAnterior);
+        }
+
+        public void Excluir(int id)
+        {
+            Produto produto = Validar(id);
+            produtosRepositorio.Excluir(produto);
+        }
+
         public Produto InserirProduto(Produto produto)
         {
             var produtoResponse = produtosRepositorio.Inserir(produto);

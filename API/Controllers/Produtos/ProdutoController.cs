@@ -32,5 +32,19 @@ namespace API.Controllers.Produtos
             return Ok(produto);
         }
 
-    }   
+        [HttpDelete("{id}")]
+        public ActionResult Excluir(int id)
+        {
+            produtosAppServico.Excluir(id);
+            return Ok();
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Editar([FromBody] ProdutoInserirRequest produtoRequest, int id)
+        {
+            produtosAppServico.Editar(produtoRequest, id);
+            return Ok();
+        }
+
+    }
 }
