@@ -5,6 +5,7 @@ using Dominio.Produtos.Servicos.Interfaces;
 using FizzWare.NBuilder;
 using FluentAssertions;
 using NSubstitute;
+using NSubstitute.ReturnsExtensions;
 using Xunit;
 
 namespace Dominio.Testes.Produtos.Servicos
@@ -27,16 +28,17 @@ namespace Dominio.Testes.Produtos.Servicos
             [Fact]
             public void Dado_ProdutoNaoEncontrado_Espero_Excecao()
             {
-                produtosRepositorio.Recuperar(Arg.Any<int>()).Returns(x => null);
-                sut.Invoking(x => x.Validar(2)).Should().Throw<Exception>();
-
+                const int ID_PRODUTO = 2;
+                produtosRepositorio.Recuperar(ID_PRODUTO).ReturnsNull();
+                sut.Invoking(x => x.Validar(ID_PRODUTO)).Should().Throw<Exception>();
             }
 
             [Fact]
             public void Dado_ProdutoEncontrado_Espero_ProdutoValido()
             {
-                produtosRepositorio.Recuperar(Arg.Any<int>()).Returns(produtoValido);
-                sut.Validar(2).Should().BeSameAs(produtoValido);
+                const int ID_PRODUTO = 2;
+                produtosRepositorio.Recuperar(ID_PRODUTO).Returns(produtoValido);
+                sut.Validar(ID_PRODUTO).Should().BeSameAs(produtoValido);
             }
         }
         public class InstanciarMetodo : ProdutosServicoTestes
@@ -59,13 +61,11 @@ namespace Dominio.Testes.Produtos.Servicos
             [Fact]
             public void Dado_ProdutoValido_Espero_ProdutoInserido()
             {
-                produtosRepositorio.Inserir(Arg.Any<Produto>()).Returns(produtoValido);
+                Produto produto = Builder<Produto>.CreateNew().With(x => x.Nome, "Inserir").Build();
+                Produto produtoInserido = sut.InserirProduto(produto);
 
-                var produto = sut.InserirProduto(produtoValido);
-
-                produtosRepositorio.Received(1).Inserir(produtoValido);
-                produto.Should().BeOfType<Produto>();
-                produto.Should().Be(produtoValido);
+                produtosRepositorio.Received().Inserir(produto);
+                produtoInserido.Nome.Should().Be(produto.Nome);
             }
         }
 

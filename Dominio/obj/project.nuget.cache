@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Znc6NGytbExWvzazEjP55Oory+uXe2IASjwF6z9/GSgPI4gZ7GGpH0zrTWX8Jrt57x03WWT3gXShQU/vQPDUg==",
+  "dgSpecHash": "V5NkI5PmB1bm7eAzDYEh6z07NFy8Y5Fbhtlq/lec8lEXQ8aSM918SlTl1Eh5TaNHv+czW7eTYYEs3yBcwJZb/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -60,10 +60,6 @@ builder.Services.Scan(scan =>
     .AsImplementedInterfaces()
     .WithSingletonLifetime());
 
-
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -79,8 +75,6 @@ if (app.Environment.IsDevelopment())
         c.AllowAnyOrigin();
     });
 }
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

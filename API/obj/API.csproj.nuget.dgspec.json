@@ -1,46 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iago\\git\\Product-API-DDD\\API\\API.csproj": {}
+    "C:\\Users\\User\\git\\Product-API-DDD\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iago\\git\\Product-API-DDD\\API\\API.csproj": {
+    "C:\\Users\\User\\git\\Product-API-DDD\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\API\\obj\\",
+        "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj"
               },
-              "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
               },
-              "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -86,7 +79,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -98,47 +92,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj": {
+    "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
         "projectName": "Aplicacao",
-        "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
-        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Aplicacao\\obj\\",
+        "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
               },
-              "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj"
               }
             }
           }
@@ -164,7 +151,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -173,33 +161,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
+    "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
         "projectName": "DataTransfer",
-        "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\DataTransfer\\obj\\",
+        "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -223,7 +204,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -232,33 +214,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -282,7 +257,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -291,41 +267,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
+    "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\Infra.csproj",
-        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Infra\\obj\\",
+        "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\iago\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
+              "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -355,7 +324,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -364,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

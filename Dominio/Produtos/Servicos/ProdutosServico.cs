@@ -14,10 +14,10 @@ namespace Dominio.Produtos.Servicos
 
         public void Atualizar(string nome, decimal valor, int id)
         {
-            Produto produtoAnterior = Validar(id);
-            produtoAnterior.SetNome(nome);
-            produtoAnterior.SetValor(valor);
-            produtosRepositorio.Atualizar(produtoAnterior);
+            Produto produto = Validar(id);
+            produto.SetNome(nome);
+            produto.SetValor(valor);
+            produtosRepositorio.Atualizar(produto);
         }
 
         public void Excluir(int id)
@@ -28,24 +28,24 @@ namespace Dominio.Produtos.Servicos
 
         public Produto InserirProduto(Produto produto)
         {
-            var produtoResponse = produtosRepositorio.Inserir(produto);
-            return produtoResponse;
+            produtosRepositorio.Inserir(produto);
+            return produto;
         }
 
         public Produto Instanciar(string nome, decimal valor)
         {
-            var produtoResponse = new Produto(nome, valor);
-            return produtoResponse;
+            var produto = new Produto(nome, valor);
+            return produto;
         }
 
         public Produto Validar(int id)
         {
-            var produtoResponse = this.produtosRepositorio.Recuperar(id);
-            if (produtoResponse is null)
+            var produto = produtosRepositorio.Recuperar(id);
+            if (produto is null)
             {
                 throw new Exception("Produto não encontrado");
             }
-            return produtoResponse;
+            return produto;
         }
     }
 }

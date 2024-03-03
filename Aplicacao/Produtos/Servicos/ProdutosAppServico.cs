@@ -56,9 +56,9 @@ namespace Aplicacao.Produtos.Servicos
             try
             {
                 var produto = produtoServico.Instanciar(produtoInserirRequest.Nome, produtoInserirRequest.Valor);
-                var response = produtoServico.InserirProduto(produto);
+                produtoServico.InserirProduto(produto);
                 transacao.Commit();
-                return mapper.Map<ProdutoInserirResponse>(response);
+                return mapper.Map<ProdutoInserirResponse>(produto);
             }
             catch
             {
