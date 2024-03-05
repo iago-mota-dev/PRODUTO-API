@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "/home/rlo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
+      "projectUniqueName": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
       "projectName": "DataTransfer",
-      "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\obj\\",
+      "projectPath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
+      "packagesPath": "/home/rlo/.nuget/packages/",
+      "outputPath": "/home/rlo/git/PRODUTO-API/DataTransfer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/rlo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -54,12 +54,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

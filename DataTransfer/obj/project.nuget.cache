@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/JtiR5boNpEYlBY/5oMm010GoyW8vaOjunnQT9NZRmP0KT+Gpj4e9DmUSevmOb6OPignE5Ma3mNdsbR16GINxw==",
+  "dgSpecHash": "WJCfgKe51cKdSrtKBCnplj7Ihq9DRgVJUqvmrAR8PFXl+QQ+PbqaDs5gliooWD5Mue7iGka+8gUZhcUBHrqBYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
+  "expectedPackageFiles": [
+    "/home/rlo/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/rlo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

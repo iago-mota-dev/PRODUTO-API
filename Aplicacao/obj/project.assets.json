@@ -6168,19 +6168,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "/home/rlo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
+      "projectUniqueName": "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj",
       "projectName": "Aplicacao",
-      "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\Aplicacao.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\git\\Product-API-DDD\\Aplicacao\\obj\\",
+      "projectPath": "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj",
+      "packagesPath": "/home/rlo/.nuget/packages/",
+      "outputPath": "/home/rlo/git/PRODUTO-API/Aplicacao/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/rlo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6192,14 +6192,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\DataTransfer\\DataTransfer.csproj"
+            "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj": {
+              "projectPath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj"
             },
-            "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj"
+            "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj": {
+              "projectPath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj"
             },
-            "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\User\\git\\Product-API-DDD\\Infra\\Infra.csproj"
+            "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj": {
+              "projectPath": "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj"
             }
           }
         }
@@ -6230,12 +6230,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

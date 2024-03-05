@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V5NkI5PmB1bm7eAzDYEh6z07NFy8Y5Fbhtlq/lec8lEXQ8aSM918SlTl1Eh5TaNHv+czW7eTYYEs3yBcwJZb/g==",
+  "dgSpecHash": "U1+ExEAj64eh2rMkw1kysrggxgsp8pqeQvJi44VXeeTk0hkYouwAYThn1FUUgGwmlCaK/Ia5pAmgTSW8w4wJoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\git\\Product-API-DDD\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj",
+  "expectedPackageFiles": [
+    "/home/rlo/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/rlo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
