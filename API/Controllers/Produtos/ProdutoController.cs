@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Aplicacao.Produtos.Servicos.Interfaces;
 using DataTransfer.Produtos.Requests;
 using DataTransfer.Produtos.Responses;
@@ -21,15 +17,15 @@ namespace API.Controllers.Produtos
         [HttpPost]
         public ActionResult<ProdutoInserirResponse> Inserir([FromBody] ProdutoInserirRequest produtoRequest)
         {
-            var produto = produtosAppServico.InserirProduto(produtoRequest);
+            ProdutoInserirResponse produto = produtosAppServico.InserirProduto(produtoRequest);
             return Ok(produto);
         }
 
         [HttpGet("{id}")]
         public ActionResult<ProdutoResponse> Recuperar(int id)
         {
-            var produto = produtosAppServico.Recuperar(id);
-            return Ok(produto);
+            ProdutoResponse response = produtosAppServico.Recuperar(id);
+            return Ok(response);
         }
 
         [HttpDelete("{id}")]

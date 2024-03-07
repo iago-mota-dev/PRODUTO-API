@@ -23,26 +23,18 @@ builder.Services.AddAutoMapper(typeof(ProdutoProfile));
 
 builder.Services.AddSingleton<ISessionFactory>(factory =>
 {
-    string connectionString = builder.Configuration.GetConnectionString("MySql");
+    var connectionString = builder.Configuration.GetConnectionString("MySql");
     return Fluently.Configure()
     .Database((MySQLConfiguration.Standard.ConnectionString(connectionString)
     .FormatSql()
     .ShowSql()))
     .Mappings(x =>
     {
-
         x.FluentMappings.AddFromAssemblyOf<ProdutosMap>();
-
-
-
     }).BuildSessionFactory();
 });
 
-
-builder.Services.AddSingleton<ISession>(factory =>
-{
-    return factory.GetService<ISessionFactory>()!.OpenSession();
-});
+builder.Services.AddSingleton<ISession>(factory => factory.GetService<ISessionFactory>()!.OpenSession());
 
 builder.Services.Scan(scan =>
     scan.FromAssemblyOf<ProdutosAppServico>()
