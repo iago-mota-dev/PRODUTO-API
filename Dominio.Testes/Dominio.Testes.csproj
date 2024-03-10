@@ -27,7 +27,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj" />
   </ItemGroup>

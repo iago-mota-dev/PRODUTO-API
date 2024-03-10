@@ -45,7 +45,7 @@ public class CategoriasServico : ICategoriasServico
             categoria.Produtos.Add(produto);
         }
 
-        categoriasRepositorio.Atualizar(categoria); //CASCADE
+        categoriasRepositorio.Atualizar(categoria);
     }
 
     private void ValidarProduto(IQueryable<Categoria> query, Categoria categoria, Produto produto)
@@ -97,7 +97,7 @@ public class CategoriasServico : ICategoriasServico
             categoria.Subcategorias.Add(categoria);
         }
 
-        categoriasRepositorio.Atualizar(categoria); //CASCADE
+        categoriasRepositorio.Atualizar(categoria);
     }
 
     private static void ValidarRegrasParaAdicionarSubcategoria(Categoria categoria, Categoria subcategoria)

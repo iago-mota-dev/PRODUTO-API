@@ -7,9 +7,9 @@ public class Categoria
     public virtual int Id { get; protected set; }
     public virtual string Nome { get; protected set; }
     public virtual bool Status { get; protected set; }
-    public virtual IList<Produto> Produtos { get; protected set; }
+    public virtual IList<Produto> Produtos { get; protected set; } = new List<Produto>();
     public virtual Categoria CategoriaPrincipal { get; protected set; }
-    public virtual IList<Categoria> Subcategorias { get; protected set; }
+    public virtual IList<Categoria> Subcategorias { get; protected set; } = new List<Categoria>();
 
     protected Categoria()
     {
@@ -20,8 +20,6 @@ public class Categoria
         SetNome(nome);
         SetStatus(status);
         SetCategoriaPrincipal(categoriaPrincipal);
-        Produtos = new List<Produto>();
-        Subcategorias = new List<Categoria>();
     }
 
     public virtual void SetCategoriaPrincipal(Categoria categoriaPrincipal)
@@ -36,6 +34,11 @@ public class Categoria
 
     public virtual void SetNome(string nome)
     {
+        if (String.IsNullOrWhiteSpace(nome))
+        {
+            throw new Exception("Nome é obrigatório");
+        }
+
         Nome = nome;
     }
 }
