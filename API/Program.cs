@@ -19,7 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddCors();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAutoMapper(typeof(ProdutoProfile));
+builder.Services.AddAutoMapper(typeof(ProdutosProfile));
 
 builder.Services.AddSingleton<ISessionFactory>(factory =>
 {

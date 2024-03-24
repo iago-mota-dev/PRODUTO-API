@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Dominio.Produtos.Entidades;
 using FluentNHibernate.Mapping;
 
@@ -11,12 +7,12 @@ namespace Infra.Produtos.Mapeamentos
     {
         public ProdutosMap()
         {
-            Schema("productApi");
-            Table("product");
-            Id(x => x.Id).Column("id");
-            Map(x => x.Nome).Column("productName");
-            Map(x => x.Valor).Column("price");
-            Map(x => x.Validade).Column("expiry");
+            Schema("BIBLIOTECA");
+            Table("PRODUTO");
+            Id(x => x.Id).Column("ID");
+            Map(x => x.Nome).Column("NOME");
+            Map(x => x.Valor).Column("VALOR");
+            Map(x => x.Validade).Column("VALIDADE");
         }
     }
 }

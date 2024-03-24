@@ -13,11 +13,11 @@ C:/Users/iago/Documents/project/Product-API-DDD/DataTransfer/obj/Debug/net6.0/re
 /home/rlo/git/PRODUTO-API/DataTransfer/bin/Debug/net6.0/DataTransfer.deps.json
 /home/rlo/git/PRODUTO-API/DataTransfer/bin/Debug/net6.0/DataTransfer.dll
 /home/rlo/git/PRODUTO-API/DataTransfer/bin/Debug/net6.0/DataTransfer.pdb
+/home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.csproj.AssemblyReference.cache
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.AssemblyInfoInputs.cache
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.AssemblyInfo.cs
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.csproj.CoreCompileInputs.cache
-/home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.sourcelink.json
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.dll
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/refint/DataTransfer.dll
 /home/rlo/git/PRODUTO-API/DataTransfer/obj/Debug/net6.0/DataTransfer.pdb

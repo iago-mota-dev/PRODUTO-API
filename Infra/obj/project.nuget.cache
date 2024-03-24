@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rXOw2KO0bZ67vozvy0oSrinzVVa+EZ12FaPa0i/XRjTCiTLr4GL8R1WLAjpCoDY4hdoRZNPvtEVK4o6nqfDdLQ==",
+  "dgSpecHash": "g+u0DvnLDrCF+LsY0gSew8db6kzDbNgnNa2XBGP67guNBNIcQIr1/vOpkEuq4IZi3hlMS+uf5WOBJ+IWdkYrSw==",
   "success": true,
   "projectFilePath": "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj",
   "expectedPackageFiles": [
@@ -102,9 +102,7 @@
     "/home/rlo/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/home/rlo/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/home/rlo/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/home/rlo/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/home/rlo/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/rlo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+    "/home/rlo/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

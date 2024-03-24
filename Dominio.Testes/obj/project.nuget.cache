@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j6XA77cHhpn6uRk6l4hcDLbWjkTF+nghoa/hffLpSmzq95pfGBYgBrSDVysx1Oq+q1ozIEJW5RVjD5Dkjj9+gg==",
+  "dgSpecHash": "dH3upWO6B+RSC5xPlIafPg8clLChFE57RvFsixnQ/jwHmhK3G8f8Vlo19M2KTnDnb92BeanmeIyhvKOZwUU9ow==",
   "success": true,
   "projectFilePath": "/home/rlo/git/PRODUTO-API/Dominio.Testes/Dominio.Testes.csproj",
   "expectedPackageFiles": [
@@ -109,9 +109,7 @@
     "/home/rlo/.nuget/packages/xunit.core/2.4.1/xunit.core.2.4.1.nupkg.sha512",
     "/home/rlo/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
     "/home/rlo/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "/home/rlo/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "/home/rlo/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/rlo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+    "/home/rlo/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

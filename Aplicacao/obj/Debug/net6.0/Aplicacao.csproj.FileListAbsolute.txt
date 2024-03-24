@@ -31,7 +31,6 @@ C:/Users/iago/Documents/project/Product-API-DDD/Aplicacao/obj/Debug/net6.0/ref/A
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.AssemblyInfoInputs.cache
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.AssemblyInfo.cs
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.csproj.CoreCompileInputs.cache
-/home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.sourcelink.json
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.csproj.CopyComplete
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/Aplicacao.dll
 /home/rlo/git/PRODUTO-API/Aplicacao/obj/Debug/net6.0/refint/Aplicacao.dll

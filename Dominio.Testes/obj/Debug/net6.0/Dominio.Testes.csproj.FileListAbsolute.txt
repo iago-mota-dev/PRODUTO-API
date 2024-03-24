@@ -318,7 +318,6 @@ c:/Users/iago/git/Product-API-DDD/Dominio.Testes/obj/Debug/net6.0/ref/Dominio.Te
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.AssemblyInfoInputs.cache
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.AssemblyInfo.cs
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.csproj.CoreCompileInputs.cache
-/home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.sourcelink.json
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.csproj.CopyComplete
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/Dominio.Testes.dll
 /home/rlo/git/PRODUTO-API/Dominio.Testes/obj/Debug/net6.0/refint/Dominio.Testes.dll
