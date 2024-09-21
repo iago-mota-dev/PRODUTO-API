@@ -22,3 +22,15 @@ C:/Users/iago/git/Product-API-DDD/Dominio/obj/Debug/net6.0/Dominio.dll
 C:/Users/iago/git/Product-API-DDD/Dominio/obj/Debug/net6.0/refint/Dominio.dll
 C:/Users/iago/git/Product-API-DDD/Dominio/obj/Debug/net6.0/Dominio.pdb
 C:/Users/iago/git/Product-API-DDD/Dominio/obj/Debug/net6.0/ref/Dominio.dll
+C:\git\PRODUTO-API\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\git\PRODUTO-API\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\git\PRODUTO-API\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.sourcelink.json
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\git\PRODUTO-API\Dominio\obj\Debug\net6.0\ref\Dominio.dll

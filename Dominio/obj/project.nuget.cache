@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WDtmgxkEK0O9SiSFrgh5souonmKPSy0KMzafKtkA1XkoeIXjdW/MB3tAzH5m9dkVTpYO0RrabElRscwHB1M+Sw==",
+  "dgSpecHash": "BM+2EYWWiSk=",
   "success": true,
-  "projectFilePath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj",
+  "projectFilePath": "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

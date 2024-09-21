@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IbqEhiwIBJJICfMxtFvW76ugspawA6/9jhDKS7e4YNmFq0HUkhcE9GnOx4HKwFKkbNbMr3R6JSikhit3Wh/uhA==",
+  "dgSpecHash": "hkLGM3t932M=",
   "success": true,
-  "projectFilePath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
+  "projectFilePath": "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

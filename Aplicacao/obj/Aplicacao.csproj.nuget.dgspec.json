@@ -1,39 +1,47 @@
 {
   "format": 1,
   "restore": {
-    "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj": {}
+    "C:\\git\\PRODUTO-API\\Aplicacao\\Aplicacao.csproj": {}
   },
   "projects": {
-    "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj": {
+    "C:\\git\\PRODUTO-API\\Aplicacao\\Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj",
+        "projectUniqueName": "C:\\git\\PRODUTO-API\\Aplicacao\\Aplicacao.csproj",
         "projectName": "Aplicacao",
-        "projectPath": "/home/rlo/git/PRODUTO-API/Aplicacao/Aplicacao.csproj",
-        "packagesPath": "/home/rlo/.nuget/packages/",
-        "outputPath": "/home/rlo/git/PRODUTO-API/Aplicacao/obj/",
+        "projectPath": "C:\\git\\PRODUTO-API\\Aplicacao\\Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\PRODUTO-API\\Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/rlo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj": {
-                "projectPath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj"
+              "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj": {
+                "projectPath": "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj"
               },
-              "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj": {
-                "projectPath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj"
+              "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj"
               },
-              "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj": {
-                "projectPath": "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj"
+              "C:\\git\\PRODUTO-API\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\git\\PRODUTO-API\\Infra\\Infra.csproj"
               }
             }
           }
@@ -42,6 +50,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,26 +82,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj": {
+    "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
+        "projectUniqueName": "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj",
         "projectName": "DataTransfer",
-        "projectPath": "/home/rlo/git/PRODUTO-API/DataTransfer/DataTransfer.csproj",
-        "packagesPath": "/home/rlo/.nuget/packages/",
-        "outputPath": "/home/rlo/git/PRODUTO-API/DataTransfer/obj/",
+        "projectPath": "C:\\git\\PRODUTO-API\\DataTransfer\\DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\PRODUTO-API\\DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/rlo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,6 +122,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -122,26 +148,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj": {
+    "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj",
+        "projectUniqueName": "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj",
-        "packagesPath": "/home/rlo/.nuget/packages/",
-        "outputPath": "/home/rlo/git/PRODUTO-API/Dominio/obj/",
+        "projectPath": "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\PRODUTO-API\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/rlo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -154,6 +188,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -175,34 +214,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj": {
+    "C:\\git\\PRODUTO-API\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj",
+        "projectUniqueName": "C:\\git\\PRODUTO-API\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "/home/rlo/git/PRODUTO-API/Infra/Infra.csproj",
-        "packagesPath": "/home/rlo/.nuget/packages/",
-        "outputPath": "/home/rlo/git/PRODUTO-API/Infra/obj/",
+        "projectPath": "C:\\git\\PRODUTO-API\\Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\iago\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\PRODUTO-API\\Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/rlo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj": {
-                "projectPath": "/home/rlo/git/PRODUTO-API/Dominio/Dominio.csproj"
+              "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\git\\PRODUTO-API\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -211,6 +258,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -242,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,7 +18,9 @@ namespace Dominio.Testes.Produtos.Servicos
 
         public ProdutosServicoTestes()
         {
-            produtoValido = Builder<Produto>.CreateNew().Build();
+            produtoValido = Builder<Produto>.CreateNew().With(x => x.Valor, 123m).Build();
+            var produtos = Builder<Produto>.CreateListOfSize(2).All().With(x => x.Valor, 123m).Build();
+
             produtosRepositorio = Substitute.For<IProdutosRepositorio>();
             sut = new ProdutosServico(produtosRepositorio);
         }
